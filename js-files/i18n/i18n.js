@@ -1,4 +1,4 @@
-import { translations } from '/js-files/i18n/translations.js';
+import { translations } from './js-files/i18n/translations.js';
 
 const STORAGE_KEY = 'lang';
 const DEFAULT_LANG = 'en';

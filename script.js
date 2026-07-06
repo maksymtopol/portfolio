@@ -1,11 +1,11 @@
 import { toggleTheme } from './js-files/header/switch-header.js';
-import { dropdownList } from '/js-files/header/language-dropdown-list.js';
-import { responsiveDropdownList } from '/js-files/header/responsive-dropdown-list.js';
-import { skillsAnimation, setTargetPercent } from '/js-files/body/skills-animation.js';
-import { initScrollReveal } from '/js-files/body/scroll-reveal.js';
-import { initWorkLightbox } from '/js-files/body/work-lightbox.js';
-import { initContactForm } from '/js-files/body/contact-form.js';
-import { initLanguage } from '/js-files/i18n/i18n.js';
+import { dropdownList } from './js-files/header/language-dropdown-list.js';
+import { responsiveDropdownList } from './js-files/header/responsive-dropdown-list.js';
+import { skillsAnimation, setTargetPercent } from './js-files/body/skills-animation.js';
+import { initScrollReveal } from './js-files/body/scroll-reveal.js';
+import { initWorkLightbox } from './js-files/body/work-lightbox.js';
+import { initContactForm } from './js-files/body/contact-form.js';
+import { initLanguage } from './js-files/i18n/i18n.js';
 
 
 
