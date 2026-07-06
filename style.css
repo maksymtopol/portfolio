@@ -1358,33 +1358,33 @@ body.dark-theme .page__section-title {
 .intro__title-line,
 .intro__lead,
 .intro__actions {
-  animation: rise-in 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: rise-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 .intro__title-line {
-  animation-delay: 0.08s;
+  animation-delay: 0.04s;
 }
 .intro__title-line--accent {
-  animation-delay: 0.2s;
+  animation-delay: 0.1s;
 }
 .intro__lead {
-  animation-delay: 0.34s;
+  animation-delay: 0.17s;
 }
 .intro__actions {
-  animation-delay: 0.48s;
+  animation-delay: 0.24s;
 }
 
 /* contact: two columns slide in from opposite sides */
 .contact__intro {
-  animation: slide-in-left 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
-  animation-delay: 0.05s;
+  animation: slide-in-left 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 0.03s;
 }
 .contact__left .contact__group {
-  animation: slide-in-left 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
-  animation-delay: 0.18s;
+  animation: slide-in-left 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 0.09s;
 }
 .contact__group--form {
-  animation: slide-in-right 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
-  animation-delay: 0.1s;
+  animation: slide-in-right 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 0.05s;
 }
 
 @media (prefers-reduced-motion: reduce) {
