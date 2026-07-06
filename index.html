@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maksym Topol - frontend developer</title>
+    <meta
+      name="description"
+      content="Frontend developer who starts with your business problem, not the design. Websites for small businesses - and honest advice when you don't need one."
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="./fonts/transfonter.org-20250819-222520/Inter24pt-Medium.woff2"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="icons/myLogo-icons/logo-white.png"
+      type="image/png"
+    />
+    <link
+      rel="shortcut icon"
+      href="icons/myLogo-icons/logo-white.png"
+      type="image/png"
+    />
+
+    <link rel="canonical" href="https://maksymtopol.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Maksym Topol - frontend developer" />
+    <meta
+      property="og:description"
+      content="I build websites - but first I ask why you need one. Honest advice for small businesses."
+    />
+    <meta property="og:url" content="https://maksymtopol.com/" />
+    <meta
+      property="og:image"
+      content="https://maksymtopol.com/images/og-image.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Maksym Topol",
+        "jobTitle": "Frontend Developer",
+        "url": "https://maksymtopol.com/",
+        "email": "mailto:maksym.prof@gmail.com",
+        "sameAs": [
+          "https://github.com/maksymtopol",
+          "https://t.me/maksymtopol"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__adaptive-block"></div>
+      <div class="header__block">
+        <div class="hamburger" id="hamburger">
+          <input
+            type="checkbox"
+            class="hamburger__input"
+            id="hamburger-input"
+          />
+          <label
+            for="hamburger-input"
+            class="hamburger__label"
+            id="hamburger-label"
+          ></label>
+        </div>
+        <a href="/" class="link__header-logo">
+          <img
+            src="icons/myLogo-icons/logo-black.png"
+            alt="Maksym Topol logo"
+            class="img__header-logo"
+            id="img-header-logo"
+            width="65"
+            height="65"
+          />
+        </a>
+        <nav class="header__menu">
+          <ul class="header__menu-list" id="header-menu-list">
+            <li class="header__menu-item">
+              <a
+                href="about.html"
+                class="header__menu-link"
+                data-i18n="nav.about"
+                >about</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a
+                href="learn.html"
+                class="header__menu-link"
+                data-i18n="nav.learn"
+                >process</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a
+                href="portfolio.html"
+                class="header__menu-link"
+                data-i18n="nav.portfolio"
+                >portfolio</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a
+                href="contact.html"
+                class="header__menu-link"
+                data-i18n="nav.contact"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header__buttons" id="header-buttons">
+          <div class="button__language">
+            <input
+              type="checkbox"
+              class="button__language-dropdown"
+              id="button-language-dropdown"
+            />
+            <label
+              for="button-language-dropdown"
+              class="label__language-dropdown"
+            ></label>
+          </div>
+          <div class="language__block-content" id="language-block-content">
+            <ul
+              class="language__block-content-list"
+              id="language-block-content-list"
+            >
+              <li class="language__block-content-item disabled" data-lang="en">
+                EN
+              </li>
+              <li class="language__block-content-item" data-lang="fr">
+                <a href="#" class="language__block-content-link">FR</a>
+              </li>
+              <li class="language__block-content-item" data-lang="ua">
+                <a href="#" class="language__block-content-link">UA</a>
+              </li>
+              <li class="language__block-content-item" data-lang="ru">
+                <a href="#" class="language__block-content-link">RU</a>
+              </li>
+            </ul>
+          </div>
+          <div class="theme__switch">
+            <input
+              type="checkbox"
+              class="theme__switch-checkbox"
+              id="theme-switch-checkbox"
+            />
+            <label class="theme__switch-label" for="theme-switch-checkbox">
+              <span class="theme__switch-icon theme__switch-icon-sun">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  height="55px"
+                  viewBox="0 -2 24 24"
+                  fill="#212121"
+                >
+                  <path
+                    d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <span class="theme__switch-icon theme__switch-icon-moon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#212121"
+                  width="18px"
+                  height="45px"
+                  viewBox="0 -1 16 16"
+                >
+                  <path
+                    d="M11.47 2.18a6.49 6.49 0 0 1 3.22 5.5 6.84 6.84 0 0 1-7.08 6.55 7.42 7.42 0 0 1-3.82-1 7 7 0 0 1-1.9-1.65 9.47 9.47 0 0 0 3.34-.74 9.92 9.92 0 0 0 3.3-2.24 10 10 0 0 0 2.94-6.42M10.82.45a.66.66 0 0 0-.66.69 8.63 8.63 0 0 1-2.55 6.54 8.68 8.68 0 0 1-6.09 2.57H.66a.66.66 0 0 0-.58 1 8.45 8.45 0 0 0 7.53 4.39A8.15 8.15 0 0 0 16 7.68 7.85 7.85 0 0 0 11.07.51a.61.61 0 0 0-.25-.06z"
+                  />
+                </svg>
+              </span>
+              <div class="theme__switch-ball"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <section class="intro" id="intro-section">
+        <div class="intro__halo" aria-hidden="true"></div>
+        <div class="intro__content">
+          <h1 class="intro__title">
+            <span class="intro__title-line" data-i18n="intro.titleA"
+              >I build websites</span
+            >
+            <span
+              class="intro__title-line intro__title-line--accent"
+              data-i18n="intro.titleB"
+              >but first I ask why you need one.</span
+            >
+          </h1>
+          <p class="intro__lead" data-i18n="intro.lead">
+            Most freelancers jump straight into the design. I start with a
+            conversation about your business, your customers, the result you
+            actually want. Then I build the right thing. Sometimes the right
+            thing isn't even a new website.
+          </p>
+          <div class="intro__actions">
+            <a
+              href="contact.html"
+              class="intro__cta"
+              data-i18n="intro.ctaPrimary"
+              >start a conversation →</a
+            >
+            <a
+              href="portfolio.html"
+              class="intro__cta intro__cta--ghost"
+              data-i18n="intro.ctaSecondary"
+              >see the work</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="skills" id="skills-section">
+        <div class="skills__container">
+          <a href="learn.html">
+            <div class="skills__approach">
+              <span
+                class="skills__approach-title"
+                data-i18n="skills.approachTitle"
+                >the difference</span
+              >
+              <span
+                class="skills__approach-chip skills__approach-chip-1"
+                data-i18n="skills.approach1"
+                >I ask first</span
+              >
+              <span
+                class="skills__approach-chip skills__approach-chip-2"
+                data-i18n="skills.approach2"
+                >your business, not just a site</span
+              >
+              <span
+                class="skills__approach-chip skills__approach-chip-3"
+                data-i18n="skills.approach3"
+                >honest advice</span
+              >
+            </div>
+          </a>
+          <a href="about.html#about-group">
+            <div class="skills__stack">
+              <span class="skills__stack-title" data-i18n="skills.stackTitle"
+                >my stack</span
+              >
+              <img
+                src="icons/body-icons/html-icon.png"
+                alt="HTML icon"
+                class="skills__stack-icon-html"
+                width="100"
+                height="100"
+              />
+              <img
+                src="icons/body-icons/css-icon.png"
+                alt="CSS icon"
+                class="skills__stack-icon-css"
+                width="86"
+                height="86"
+              />
+              <img
+                src="icons/body-icons/js-logo.png"
+                alt="JavaScript icon"
+                class="skills__stack-icon-js"
+                width="86"
+                height="86"
+              />
+              <img
+                src="icons/body-icons/wp-icon.png"
+                alt="WordPress icon"
+                class="skills__stack-icon-wp"
+                width="86"
+                height="86"
+              />
+              <img
+                src="icons/body-icons/react-icon.png"
+                alt="React icon"
+                class="skills__stack-icon-react"
+                width="86"
+                height="86"
+              />
+              <img
+                src="icons/body-icons/sass-icon.png"
+                alt="Sass icon"
+                class="skills__stack-icon-sass"
+                width="86"
+                height="86"
+              />
+            </div>
+          </a>
+        </div>
+      </section>
+      <section class="latest" id="latest-section">
+        <header class="latest__header" data-reveal="up">
+          <h2 class="latest__title" data-i18n="latest.title">latest work</h2>
+          <a href="portfolio.html" class="latest__more" data-i18n="latest.more"
+            >view all →</a
+          >
+        </header>
+        <div class="latest__grid">
+          <a
+            href="portfolio.html#kropp"
+            class="latest__card"
+            data-reveal="up"
+          >
+            <div class="latest__thumb latest__thumb--1">
+              <img
+                class="latest__shot"
+                src="images/work/kropp-thumb.jpg"
+                alt="Kropp Fitness - fitness landing page"
+                width="900"
+                height="675"
+                loading="lazy"
+              />
+            </div>
+            <span class="latest__category" data-i18n="latest.proj1.cat"
+              >Landing page</span
+            >
+            <h3 class="latest__name" data-i18n="latest.proj1.name">
+              Kropp Fitness
+            </h3>
+          </a>
+          <a
+            href="portfolio.html#magazine"
+            class="latest__card"
+            data-reveal="up"
+          >
+            <div class="latest__thumb latest__thumb--2">
+              <img
+                class="latest__shot"
+                src="images/work/magazine-thumb.jpg"
+                alt="Henrik magazine - editorial magazine layout"
+                width="900"
+                height="675"
+                loading="lazy"
+              />
+            </div>
+            <span class="latest__category" data-i18n="latest.proj2.cat"
+              >Magazine theme</span
+            >
+            <h3 class="latest__name" data-i18n="latest.proj2.name">
+              Henrik magazine
+            </h3>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer__inner">
+        <ul class="footer__menu">
+          <li><a href="about.html" class="header__menu-link" data-i18n="nav.about">about</a></li>
+          <li><a href="learn.html" class="header__menu-link" data-i18n="nav.learn">process</a></li>
+          <li>
+            <a href="portfolio.html" class="header__menu-link" data-i18n="nav.portfolio">portfolio</a>
+          </li>
+          <li><a href="contact.html" class="header__menu-link" data-i18n="nav.contact">contact</a></li>
+        </ul>
+        <p class="footer__copy" data-i18n="footer.copy">
+          © 2026 Maksym Topol - built from scratch.
+        </p>
+        <a href="#header" class="footer__top" data-i18n="footer.top"
+          >back to top ↑</a
+        >
+      </div>
+    </footer>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>

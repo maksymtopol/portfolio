@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Maksym Topol</title>
+    <meta
+      name="description"
+      content="I'm Maksym Topol. Before writing any code, I find out what's actually not working in your business."
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="./fonts/transfonter.org-20250819-222520/Inter24pt-Medium.woff2"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="icons/myLogo-icons/logo-white.png"
+      type="image/png"
+    />
+    <link
+      rel="shortcut icon"
+      href="icons/myLogo-icons/logo-white.png"
+      type="image/png"
+    />
+
+    <link rel="canonical" href="https://maksymtopol.com/about.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="About - Maksym Topol" />
+    <meta
+      property="og:description"
+      content="I'm Maksym Topol. Before writing any code, I find out what's actually not working in your business."
+    />
+    <meta property="og:url" content="https://maksymtopol.com/about.html" />
+    <meta
+      property="og:image"
+      content="https://maksymtopol.com/images/og-image.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__adaptive-block"></div>
+      <div class="header__block">
+        <div class="hamburger" id="hamburger">
+          <input
+            type="checkbox"
+            class="hamburger__input"
+            id="hamburger-input"
+          />
+          <label
+            for="hamburger-input"
+            class="hamburger__label"
+            id="hamburger-label"
+          ></label>
+        </div>
+        <a href="/" class="link__header-logo">
+          <img
+            src="icons/myLogo-icons/logo-black.png"
+            alt="Maksym Topol logo"
+            class="img__header-logo"
+            id="img-header-logo"
+            width="65"
+            height="65"
+          />
+        </a>
+        <nav class="header__menu">
+          <ul class="header__menu-list" id="header-menu-list">
+            <li class="header__menu-item">
+              <a
+                href="about.html"
+                class="header__menu-link"
+                data-i18n="nav.about"
+                >about</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a
+                href="learn.html"
+                class="header__menu-link"
+                data-i18n="nav.learn"
+                >process</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a
+                href="portfolio.html"
+                class="header__menu-link"
+                data-i18n="nav.portfolio"
+                >portfolio</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a
+                href="contact.html"
+                class="header__menu-link"
+                data-i18n="nav.contact"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header__buttons" id="header-buttons">
+          <div class="button__language">
+            <input
+              type="checkbox"
+              class="button__language-dropdown"
+              id="button-language-dropdown"
+            />
+            <label
+              for="button-language-dropdown"
+              class="label__language-dropdown"
+            ></label>
+          </div>
+          <div class="language__block-content" id="language-block-content">
+            <ul
+              class="language__block-content-list"
+              id="language-block-content-list"
+            >
+              <li class="language__block-content-item disabled" data-lang="en">
+                EN
+              </li>
+              <li class="language__block-content-item" data-lang="fr">
+                <a href="#" class="language__block-content-link">FR</a>
+              </li>
+              <li class="language__block-content-item" data-lang="ua">
+                <a href="#" class="language__block-content-link">UA</a>
+              </li>
+              <li class="language__block-content-item" data-lang="ru">
+                <a href="#" class="language__block-content-link">RU</a>
+              </li>
+            </ul>
+          </div>
+          <div class="theme__switch">
+            <input
+              type="checkbox"
+              class="theme__switch-checkbox"
+              id="theme-switch-checkbox"
+            />
+            <label class="theme__switch-label" for="theme-switch-checkbox">
+              <span class="theme__switch-icon theme__switch-icon-sun">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  height="55px"
+                  viewBox="0 -2 24 24"
+                  fill="#212121"
+                >
+                  <path
+                    d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <span class="theme__switch-icon theme__switch-icon-moon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#212121"
+                  width="18px"
+                  height="45px"
+                  viewBox="0 -1 16 16"
+                >
+                  <path
+                    d="M11.47 2.18a6.49 6.49 0 0 1 3.22 5.5 6.84 6.84 0 0 1-7.08 6.55 7.42 7.42 0 0 1-3.82-1 7 7 0 0 1-1.9-1.65 9.47 9.47 0 0 0 3.34-.74 9.92 9.92 0 0 0 3.3-2.24 10 10 0 0 0 2.94-6.42M10.82.45a.66.66 0 0 0-.66.69 8.63 8.63 0 0 1-2.55 6.54 8.68 8.68 0 0 1-6.09 2.57H.66a.66.66 0 0 0-.58 1 8.45 8.45 0 0 0 7.53 4.39A8.15 8.15 0 0 0 16 7.68 7.85 7.85 0 0 0 11.07.51a.61.61 0 0 0-.25-.06z"
+                  />
+                </svg>
+              </span>
+              <div class="theme__switch-ball"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <section class="about" id="about-section">
+        <div class="about__halo" aria-hidden="true"></div>
+
+        <header class="about__intro" data-reveal="up">
+          <span class="about__eyebrow" data-i18n="about.eyebrow"
+            >introduction</span
+          >
+          <h1 class="about__title" data-i18n="about.title">about me</h1>
+          <p class="about__lead" data-i18n="about.lead">
+            I'm Maksym. Before I write any code, I want to know what's actually
+            not working in your business.
+          </p>
+        </header>
+
+        <h2 class="about__group-title about__approach-title" data-reveal="up">
+          <span class="about__group-arrow" aria-hidden="true">→</span>
+          <span data-i18n="about.approachTitle">my approach</span>
+        </h2>
+
+        <div class="about__story">
+          <article class="about__card about__card--peach" data-reveal="left">
+            <span class="about__card-num">01</span>
+            <h3 class="about__card-title" data-i18n="about.card1Title">
+              Understand first
+            </h3>
+            <p class="about__card-text" data-i18n="about.card1Body">
+              Before we talk about the website, I'll ask how you get customers
+              now, what's working, and what isn't. Sounds obvious. Almost
+              nobody does it.
+            </p>
+          </article>
+          <article
+            class="about__card about__card--lavender"
+            data-reveal="right"
+          >
+            <span class="about__card-num">02</span>
+            <h3 class="about__card-title" data-i18n="about.card2Title">
+              Choose the right solution
+            </h3>
+            <p class="about__card-text" data-i18n="about.card2Body">
+              Sometimes the answer isn't a new website. If another solution
+              makes more sense, that's what I'll recommend.
+            </p>
+          </article>
+          <article class="about__card about__card--sage" data-reveal="left">
+            <span class="about__card-num">03</span>
+            <h3 class="about__card-title" data-i18n="about.card3Title">
+              Build with purpose
+            </h3>
+            <p class="about__card-text" data-i18n="about.card3Body">
+              A page either helps a visitor do something - call, order, find
+              you - or it's in the way.
+            </p>
+          </article>
+        </div>
+
+        <section class="about__group" id="about-group" data-reveal="left">
+          <h2 class="about__group-title">
+            <span class="about__group-arrow" aria-hidden="true">→</span>
+            <span data-i18n="about.skillsTitle">stack</span>
+          </h2>
+          <ul class="about__chips">
+            <li class="about__chip about__chip--c1">HTML</li>
+            <li class="about__chip about__chip--c2">CSS / Sass</li>
+            <li class="about__chip about__chip--c3">JavaScript</li>
+            <li class="about__chip about__chip--c4">React</li>
+            <li class="about__chip about__chip--c5">WordPress</li>
+            <li class="about__chip about__chip--c1">Elementor</li>
+            <li class="about__chip about__chip--c6">Git</li>
+          </ul>
+        </section>
+
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer__inner">
+        <ul class="footer__menu">
+          <li><a href="about.html" class="header__menu-link" data-i18n="nav.about">about</a></li>
+          <li><a href="learn.html" class="header__menu-link" data-i18n="nav.learn">process</a></li>
+          <li>
+            <a href="portfolio.html" class="header__menu-link" data-i18n="nav.portfolio">portfolio</a>
+          </li>
+          <li><a href="contact.html" class="header__menu-link" data-i18n="nav.contact">contact</a></li>
+        </ul>
+        <p class="footer__copy" data-i18n="footer.copy">
+          © 2026 Maksym Topol - built from scratch.
+        </p>
+        <a href="#header" class="footer__top" data-i18n="footer.top"
+          >back to top ↑</a
+        >
+      </div>
+    </footer>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>

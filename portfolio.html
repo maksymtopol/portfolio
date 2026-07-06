@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Maksym Topol</title>
+    <meta
+      name="description"
+      content="Selected work by Maksym Topol - real projects and one honest story about a website I didn't build."
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="./fonts/transfonter.org-20250819-222520/Inter24pt-Medium.woff2"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="icons/myLogo-icons/logo-white.png"
+      type="image/png"
+    />
+    <link
+      rel="shortcut icon"
+      href="icons/myLogo-icons/logo-white.png"
+      type="image/png"
+    />
+
+    <link
+      rel="canonical"
+      href="https://maksymtopol.com/portfolio.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Portfolio - Maksym Topol" />
+    <meta
+      property="og:description"
+      content="Selected work by Maksym Topol - real projects and one honest story about a website I didn't build."
+    />
+    <meta
+      property="og:url"
+      content="https://maksymtopol.com/portfolio.html"
+    />
+    <meta
+      property="og:image"
+      content="https://maksymtopol.com/images/og-image.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__adaptive-block"></div>
+      <div class="header__block">
+        <div class="hamburger" id="hamburger">
+          <input
+            type="checkbox"
+            class="hamburger__input"
+            id="hamburger-input"
+          />
+          <label
+            for="hamburger-input"
+            class="hamburger__label"
+            id="hamburger-label"
+          ></label>
+        </div>
+        <a href="/" class="link__header-logo">
+          <img
+            src="icons/myLogo-icons/logo-black.png"
+            alt="Maksym Topol logo"
+            class="img__header-logo"
+            id="img-header-logo"
+            width="65"
+            height="65"
+          />
+        </a>
+        <nav class="header__menu">
+          <ul class="header__menu-list" id="header-menu-list">
+            <li class="header__menu-item">
+              <a
+                href="about.html"
+                class="header__menu-link"
+                data-i18n="nav.about"
+                >about</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a
+                href="learn.html"
+                class="header__menu-link"
+                data-i18n="nav.learn"
+                >process</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a
+                href="portfolio.html"
+                class="header__menu-link"
+                data-i18n="nav.portfolio"
+                >portfolio</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a
+                href="contact.html"
+                class="header__menu-link"
+                data-i18n="nav.contact"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header__buttons" id="header-buttons">
+          <div class="button__language">
+            <input
+              type="checkbox"
+              class="button__language-dropdown"
+              id="button-language-dropdown"
+            />
+            <label
+              for="button-language-dropdown"
+              class="label__language-dropdown"
+            ></label>
+          </div>
+          <div class="language__block-content" id="language-block-content">
+            <ul
+              class="language__block-content-list"
+              id="language-block-content-list"
+            >
+              <li class="language__block-content-item disabled" data-lang="en">
+                EN
+              </li>
+              <li class="language__block-content-item" data-lang="fr">
+                <a href="#" class="language__block-content-link">FR</a>
+              </li>
+              <li class="language__block-content-item" data-lang="ua">
+                <a href="#" class="language__block-content-link">UA</a>
+              </li>
+              <li class="language__block-content-item" data-lang="ru">
+                <a href="#" class="language__block-content-link">RU</a>
+              </li>
+            </ul>
+          </div>
+          <div class="theme__switch">
+            <input
+              type="checkbox"
+              class="theme__switch-checkbox"
+              id="theme-switch-checkbox"
+            />
+            <label class="theme__switch-label" for="theme-switch-checkbox">
+              <span class="theme__switch-icon theme__switch-icon-sun">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  height="55px"
+                  viewBox="0 -2 24 24"
+                  fill="#212121"
+                >
+                  <path
+                    d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <span class="theme__switch-icon theme__switch-icon-moon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#212121"
+                  width="18px"
+                  height="45px"
+                  viewBox="0 -1 16 16"
+                >
+                  <path
+                    d="M11.47 2.18a6.49 6.49 0 0 1 3.22 5.5 6.84 6.84 0 0 1-7.08 6.55 7.42 7.42 0 0 1-3.82-1 7 7 0 0 1-1.9-1.65 9.47 9.47 0 0 0 3.34-.74 9.92 9.92 0 0 0 3.3-2.24 10 10 0 0 0 2.94-6.42M10.82.45a.66.66 0 0 0-.66.69 8.63 8.63 0 0 1-2.55 6.54 8.68 8.68 0 0 1-6.09 2.57H.66a.66.66 0 0 0-.58 1 8.45 8.45 0 0 0 7.53 4.39A8.15 8.15 0 0 0 16 7.68 7.85 7.85 0 0 0 11.07.51a.61.61 0 0 0-.25-.06z"
+                  />
+                </svg>
+              </span>
+              <div class="theme__switch-ball"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <section class="work" id="portfolio-page">
+        <div class="work__halo" aria-hidden="true"></div>
+
+        <header class="work__intro" data-reveal="up">
+          <span class="work__eyebrow" data-i18n="portfolio.eyebrow"
+            >projects</span
+          >
+          <h1 class="work__title" data-i18n="portfolio.title">selected work</h1>
+          <p class="work__lead" data-i18n="portfolio.lead">
+            A few projects - and one story about a website I didn't build.
+          </p>
+        </header>
+
+        <h2 class="work__group-title" data-reveal="up">
+          <span class="work__group-arrow" aria-hidden="true">→</span>
+          <span data-i18n="portfolio.groupTitle">recent things</span>
+        </h2>
+
+        <div class="work__grid">
+          <a
+            href="images/work/kropp-full.jpg"
+            data-full="images/work/kropp-full.jpg"
+            id="kropp"
+            class="work__card work__card--peach"
+            data-reveal="left"
+          >
+            <div class="work__thumb work__thumb--1">
+              <img
+                class="work__shot"
+                src="images/work/kropp-thumb.jpg"
+                alt="Kropp Fitness - fitness landing page"
+                width="900"
+                height="675"
+                loading="lazy"
+              />
+            </div>
+            <span class="work__category" data-i18n="portfolio.p1.cat"
+              >Landing page</span
+            >
+            <h2 class="work__name" data-i18n="portfolio.p1.name">
+              Kropp Fitness
+            </h2>
+            <p class="work__desc" data-i18n="portfolio.p1.desc">
+              Dark fitness landing - pixel-perfect build from the design,
+              responsive and semantic.
+            </p>
+          </a>
+          <a
+            href="images/work/magazine-full.jpg"
+            data-full="images/work/magazine-full.jpg"
+            id="magazine"
+            class="work__card work__card--lavender"
+            data-reveal="right"
+          >
+            <div class="work__thumb work__thumb--2">
+              <img
+                class="work__shot"
+                src="images/work/magazine-thumb.jpg"
+                alt="Henrik magazine - editorial magazine layout"
+                width="900"
+                height="675"
+                loading="lazy"
+              />
+            </div>
+            <span class="work__category" data-i18n="portfolio.p2.cat"
+              >Magazine theme</span
+            >
+            <h2 class="work__name" data-i18n="portfolio.p2.name">
+              Henrik magazine
+            </h2>
+            <p class="work__desc" data-i18n="portfolio.p2.desc">
+              Complex editorial magazine layout - grid and typography (desktop).
+            </p>
+          </a>
+        </div>
+
+        <h2 class="work__group-title work__group-title--later" data-reveal="up">
+          <span class="work__group-arrow" aria-hidden="true">→</span>
+          <span data-i18n="portfolio.groupTitle2">one honest story</span>
+        </h2>
+
+        <div class="work__grid">
+          <a
+            href="case-no-website.html"
+            class="work__card work__card--sage"
+            data-reveal="left"
+          >
+            <div class="work__thumb work__thumb--3"></div>
+            <span class="work__category" data-i18n="portfolio.case.cat"
+              >Case study</span
+            >
+            <h2 class="work__name" data-i18n="portfolio.case.name">
+              Why I told a client not to build a website
+            </h2>
+            <p class="work__desc" data-i18n="portfolio.case.desc">
+              The most useful advice I've given so far cost nothing. Here's the
+              full story.
+            </p>
+          </a>
+        </div>
+
+        <section class="work__cta" data-reveal="up">
+          <h2 class="work__cta-title" data-i18n="portfolio.ctaTitle">
+            got a project in mind?
+          </h2>
+          <p class="work__cta-body" data-i18n="portfolio.ctaBody">
+            Tell me what's not working in your business. Worst case, you get a
+            free second opinion.
+          </p>
+          <a
+            href="contact.html"
+            class="work__cta-link"
+            data-i18n="portfolio.ctaLink"
+            >say hello →</a
+          >
+        </section>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer__inner">
+        <ul class="footer__menu">
+          <li><a href="about.html" class="header__menu-link" data-i18n="nav.about">about</a></li>
+          <li><a href="learn.html" class="header__menu-link" data-i18n="nav.learn">process</a></li>
+          <li>
+            <a href="portfolio.html" class="header__menu-link" data-i18n="nav.portfolio">portfolio</a>
+          </li>
+          <li><a href="contact.html" class="header__menu-link" data-i18n="nav.contact">contact</a></li>
+        </ul>
+        <p class="footer__copy" data-i18n="footer.copy">
+          © 2026 Maksym Topol - built from scratch.
+        </p>
+        <a href="#header" class="footer__top" data-i18n="footer.top"
+          >back to top ↑</a
+        >
+      </div>
+    </footer>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
