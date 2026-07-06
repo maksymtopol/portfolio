@@ -1,5 +1,5 @@
-import { translations } from '../js-files/i18n/translations.js';
-import { getCurrentLanguage } from '../js-files/i18n/i18n.js';
+import { translations } from '../i18n/translations.js';
+import { getCurrentLanguage } from '../i18n/i18n.js';
 
 const ENDPOINT = 'https://api.web3forms.com/submit';
 
